@@ -29,18 +29,18 @@ public class Program extends JFrame {
         binaryTreeButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                BinaryTreeForm form = new BinaryTreeForm();
-//                form.setVisible(true);
+                AlgorithmnApp form = new AlgorithmnApp();
+                form.setVisible(true);
             }
         });
         panel.add(binaryTreeButton);
 
-        JButton hashButton = new JButton("Hash");
+        JButton hashButton = new JButton("Hash Table");
         hashButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                HashForm form = new HashForm();
-//                form.setVisible(true);
+                HashTableSearchGUI form = new HashTableSearchGUI();
+                form.setVisible(true);
             }
         });
         panel.add(hashButton);
